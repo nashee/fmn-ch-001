@@ -6,7 +6,6 @@ a {
   text-decoration: none; }
 
 .container {
-  height: 500px;
   width: 920px;
   border-radius: 8px; }
 
@@ -15,6 +14,14 @@ a {
 
 #s-left {
   background-color: #E28625;
+  height: 500px; }
+
+#s-center {
+  background-color: #006971;
+  height: 500px; }
+
+#s-right {
+  background-color: #004140;
   height: 500px; }
 
 .car {
@@ -27,15 +34,16 @@ img {
   width: 63.91px;
   height: 40px; }
 
-.nav-btn {
-  border: 2px solid white;
+#s-left .nav-btn {
   text-align: center;
   width: 146px;
   height: 48px;
-  border-radius: 20px; }
-  .nav-btn a {
+  border-radius: 20px;
+  background-color: white; }
+  #s-left .nav-btn a {
     display: inline-block;
-    margin-top: 7px; }
+    margin-top: 10px;
+    color: #E28625; }
 
 .desc {
   height: 125px;

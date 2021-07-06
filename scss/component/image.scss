@@ -5,19 +5,22 @@
    padding: 47px;
    
 }
-img {
+img {  
     width: 63.91px;
     height: 40px;
 }
-.nav-btn {
-    border: 2px solid white;
+#s-left .nav-btn {
+    
     text-align: center;
     width: 146px;
     height: 48px;
     border-radius: 20px;
+    background-color: white;
     a {
         display: inline-block;
-        margin-top: 7px;
+        margin-top: 10px;
+        color:   #E28625;
+        
     }
 }
 
