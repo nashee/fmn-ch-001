@@ -1,2 +1,43 @@
 body {
-  background-color: green; }
+  color: white; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+.container {
+  height: 500px;
+  width: 920px;
+  border-radius: 8px; }
+
+.wrapper {
+  margin-top: 50px; }
+
+#s-left {
+  background-color: #E28625;
+  height: 500px; }
+
+.car {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 47px; }
+
+img {
+  width: 63.91px;
+  height: 40px; }
+
+.nav-btn {
+  border: 2px solid white;
+  text-align: center;
+  width: 146px;
+  height: 48px;
+  border-radius: 20px; }
+  .nav-btn a {
+    display: inline-block;
+    margin-top: 7px; }
+
+.desc {
+  height: 125px;
+  width: 212px;
+  border-radius: nullpx; }
