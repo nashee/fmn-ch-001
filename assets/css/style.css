@@ -34,18 +34,82 @@ img {
   width: 63.91px;
   height: 40px; }
 
-#s-left .nav-btn {
+#s-left a {
   text-align: center;
   width: 146px;
   height: 48px;
   border-radius: 20px;
-  background-color: white; }
-  #s-left .nav-btn a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #E28625; }
+  background-color: white;
+  padding: 10px;
+  display: inline-block;
+  color: #E28625; }
+
+#s-center a {
+  text-align: center;
+  width: 146px;
+  height: 48px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  display: inline-block;
+  color: #006971; }
+
+#s-right a {
+  text-align: center;
+  width: 146px;
+  height: 48px;
+  border-radius: 20px;
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+  color: #004140; }
+
+#s-left a:hover {
+  text-align: center;
+  width: 146px;
+  height: 48px;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 20px;
+  background-color: #E28625; }
+
+#s-center a:hover {
+  text-align: center;
+  width: 146px;
+  height: 48px;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 20px;
+  background-color: #006971; }
+
+#s-right a:hover {
+  text-align: center;
+  width: 146px;
+  height: 48px;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 20px;
+  background-color: #004140; }
 
 .desc {
   height: 125px;
   width: 212px;
-  border-radius: nullpx; }
+  border-radius: 20px; }
+
+.title {
+  font-family: 'Big Shoulders Display';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left; }
