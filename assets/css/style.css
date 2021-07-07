@@ -12,23 +12,21 @@ a {
 .wrapper {
   margin-top: 50px; }
 
-#s-left {
-  background-color: #E28625;
-  height: 500px; }
-
-#s-center {
-  background-color: #006971;
-  height: 500px; }
-
-#s-right {
-  background-color: #004140;
-  height: 500px; }
-
 .car {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 47px; }
+  padding: 47px;
+  height: 500px; }
+
+.s-left {
+  background-color: #E28625; }
+
+.s-center {
+  background-color: #006971; }
+
+.s-right {
+  background-color: #004140; }
 
 img {
   width: 63.91px;
